@@ -9,7 +9,7 @@ body {
   font-family: "Montserrat", "sans-serif";
   margin: 0px;
 }
-body ul{
+body ul {
   padding-inline-start: 0px;
 }
 .container {
@@ -58,10 +58,10 @@ body ul{
 .non-bullet {
   list-style: none;
 }
-.section{
+.section {
   padding: 0px;
 }
-section ul{
+section ul {
   padding: 0rem 1rem;
 }
 
@@ -93,9 +93,7 @@ section ul{
 .navigation .link-active {
   font-weight: bold;
 }
-.navigation a{
 
-}
 .section h3,
 p {
   text-align: center;
@@ -116,7 +114,6 @@ p {
   text-align: center;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  
 }
 .footer .links {
   color: white;
@@ -134,27 +131,26 @@ p {
 .section a {
   text-align: center;
 }
-.list-space{
+.list-space {
   padding-bottom: 2rem;
 }
 
-.showcase-list{
+.showcase-list {
   padding: 2rem;
   text-align: center;
   border-radius: 1rem;
   margin: 3rem auto;
-
 }
 
-.link-round{
+.link-round {
   border-radius: 5rem;
 }
-body nav{
-  max-width:90%;
+body nav {
+  max-width: 90%;
   margin: auto;
 }
 
-body footer{
+body footer {
   max-width: 97%;
   margin: auto;
 }
