@@ -3,13 +3,15 @@
 :root {
   --primary-color: #f97316;
   --gray-color: #9ca3af;
-  --off-white: #f3f4f6;
+  --off-white: #f1f5f9;
 }
 body {
   font-family: "Montserrat", "sans-serif";
   margin: 0px;
 }
-
+body ul{
+  padding-inline-start: 0px;
+}
 .container {
   padding: 0rem 1rem;
 }
@@ -39,7 +41,7 @@ body {
 /** links **/
 .links {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
 .primary-link {
   background-color: var(--primary-color);
@@ -58,6 +60,9 @@ body {
 }
 .section{
   padding: 0px;
+}
+section ul{
+  padding: 0rem 1rem;
 }
 
 .list-inline {
@@ -78,6 +83,7 @@ body {
 }
 .navigation .nav-pills {
   text-align: right;
+  margin: auto;
 }
 .navigation .nav-hero {
   font-weight: bold;
@@ -87,7 +93,9 @@ body {
 .navigation .link-active {
   font-weight: bold;
 }
+.navigation a{
 
+}
 .section h3,
 p {
   text-align: center;
@@ -108,7 +116,7 @@ p {
   text-align: center;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  margin-top: 2vh;
+  
 }
 .footer .links {
   color: white;
